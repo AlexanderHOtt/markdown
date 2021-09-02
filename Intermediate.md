@@ -62,7 +62,7 @@ Or inline expressions with single `$`: $y = x^2 + 2x + \frac{8}{3}$.
 Or inline expressions: $y = x^2 + 2x + \frac{8}{3}$.
 ```
 
-The last option is rendering an image of the equations and displaing them as images.
+The last option is rendering images of the equations and displaing them as images.
 
 # 3. Keyboard Symbols
 
@@ -70,7 +70,7 @@ You can create keyboard symbols with the `<kbd>` HTML tag.
 
 Just press <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>DEL</kbd>.
 
-```md
+```html
 Just press <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>DEL</kbd>.
 ```
 
