@@ -82,8 +82,8 @@ Using HTML you can choose how to align your images
 <img src="assets/images/markdown.png" alt="Markdown Logo">
 </p>
 
-<p style="text-align:center;">
-<img src="assets/images/markdown.png" alt="Markdown Logo">
+<p align="center">
+  <img src="assets/images/markdown.png">
 </p>
 
 <p style="text-align:right;">
@@ -106,7 +106,7 @@ Using HTML you can choose how to align your images
 
 # 5. Animated SVGs
 
-You can animate SVGs and add them to markdown documents.
+You can animate SVGs and add them to markdown documents. **This doesn't work on Gtihub.**
 
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin:auto;background:#fff;display:block;" width="200px" height="200px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
 <g transform="translate(50 42)">

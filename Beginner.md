@@ -326,10 +326,10 @@ This is really **_very_** important text.
 
 # 7 Code
 
-At the command prompt, type `nano`.
+At the command prompt, type `vim`.
 
 ```md
-At the command prompt, type `nano`.
+At the command prompt, type `vim`.
 ```
 
 ## Escaping Backticks
@@ -420,23 +420,23 @@ My favorite search engine is [Duck Duck Go](https://duckduckgo.com 'The best sea
 
 To quickly turn a URL or email address into a link, enclose it in angle brackets.
 
-<https://www.markdownguide.org>  
+<https://github.com/AlexanderHOtt/>  
 <fake@example.com>
 
 ```md
-<https://www.markdownguide.org>  
+<https://github.com/AlexanderHOtt/>  
 <fake@example.com>
 ```
 
 ## Formatting Links
 
-I love supporting the **[EFF](https://eff.org)**.
-This is the _[Markdown Guide](https://www.markdownguide.org)_.
+I love supporting the **[FSF](https://www.fsf.org/)**.
+This is the _[Markdown Guide](https://github.com/AlexanderHOtt/markdown)_.
 See the section on [`code`](#code).
 
 ```md
 I love supporting the **[EFF](https://eff.org)**.
-This is the _[Markdown Guide](https://www.markdownguide.org)_.
+This is the _[Markdown Guide](https://github.com/AlexanderHOtt/markdown)_.
 See the section on [`code`](#code).
 ```
 
