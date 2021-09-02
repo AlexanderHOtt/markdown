@@ -78,29 +78,29 @@ Just press <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>DEL</kbd>.
 
 Using HTML you can choose how to align your images
 
-<p style="text-align:left;">
-<img src="assets/images/markdown.png" alt="Markdown Logo">
+<p align="left">
+  <img src="assets/images/markdown.png">
 </p>
 
 <p align="center">
   <img src="assets/images/markdown.png">
 </p>
 
-<p style="text-align:right;">
-<img src="assets/images/markdown.png" alt="Markdown Logo">
+<p align="right">
+  <img src="assets/images/markdown.png">
 </p>
 
 ```md
-<p style="text-align:left;">
-<img src="assets/images/markdown.png" alt="Markdown Logo">
+<p align="left">
+  <img src="assets/images/markdown.png">
 </p>
 
-<p style="text-align:center;">
-<img src="assets/images/markdown.png" alt="Markdown Logo">
+<p align="center">
+  <img src="assets/images/markdown.png">
 </p>
 
-<p style="text-align:right;">
-<img src="assets/images/markdown.png" alt="Markdown Logo">
+<p align="right">
+  <img src="assets/images/markdown.png">
 </p>
 ```
 
