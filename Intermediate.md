@@ -130,11 +130,11 @@ You can create your own animations with software such as https://www.svgator.com
 
 # 6. File Trees
 
-Using the ```graphql``` syntax highlighting.
+Using the `graphql` syntax highlighting.
 
 ```graphql
 # Code & components for pages
-./src/* 
+./src/*
   ├─ src/assets - # Minified images, fonts, icon files
   ├─ src/components - # Individual smaller components
   ├─ src/fragments - # Larger chunks of a page composed of multiple components
