@@ -62,7 +62,7 @@ Or inline expressions with single `$`: $y = x^2 + 2x + \frac{8}{3}$.
 Or inline expressions: $y = x^2 + 2x + \frac{8}{3}$.
 ```
 
-The last option is rendering an image of the equations and displaing them as images.
+The last option is rendering images of the equations and displaing them as images.
 
 # 3. Keyboard Symbols
 
@@ -70,7 +70,7 @@ You can create keyboard symbols with the `<kbd>` HTML tag.
 
 Just press <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>DEL</kbd>.
 
-```md
+```html
 Just press <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>DEL</kbd>.
 ```
 
@@ -78,35 +78,35 @@ Just press <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>DEL</kbd>.
 
 Using HTML you can choose how to align your images
 
-<p style="text-align:left;">
-<img src="assets/images/markdown.png" alt="Markdown Logo">
+<p align="left">
+  <img src="assets/images/markdown.png">
 </p>
 
-<p style="text-align:center;">
-<img src="assets/images/markdown.png" alt="Markdown Logo">
+<p align="center">
+  <img src="assets/images/markdown.png">
 </p>
 
-<p style="text-align:right;">
-<img src="assets/images/markdown.png" alt="Markdown Logo">
+<p align="right">
+  <img src="assets/images/markdown.png">
 </p>
 
 ```md
-<p style="text-align:left;">
-<img src="assets/images/markdown.png" alt="Markdown Logo">
+<p align="left">
+  <img src="assets/images/markdown.png">
 </p>
 
-<p style="text-align:center;">
-<img src="assets/images/markdown.png" alt="Markdown Logo">
+<p align="center">
+  <img src="assets/images/markdown.png">
 </p>
 
-<p style="text-align:right;">
-<img src="assets/images/markdown.png" alt="Markdown Logo">
+<p align="right">
+  <img src="assets/images/markdown.png">
 </p>
 ```
 
 # 5. Animated SVGs
 
-You can animate SVGs and add them to markdown documents.
+You can animate SVGs and add them to markdown documents. **This doesn't work on Gtihub.**
 
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin:auto;background:#fff;display:block;" width="200px" height="200px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
 <g transform="translate(50 42)">
@@ -130,11 +130,11 @@ You can create your own animations with software such as https://www.svgator.com
 
 # 6. File Trees
 
-Using the ```graphql``` syntax highlighting.
+Using the `graphql` syntax highlighting.
 
 ```graphql
 # Code & components for pages
-./src/* 
+./src/*
   ├─ src/assets - # Minified images, fonts, icon files
   ├─ src/components - # Individual smaller components
   ├─ src/fragments - # Larger chunks of a page composed of multiple components
